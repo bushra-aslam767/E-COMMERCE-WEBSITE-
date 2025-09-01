@@ -1,0 +1,21 @@
+/* Header */
+.header {
+  background-color: #1fa5a3;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 10px rgba(7, 118, 178, 0.1);
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header div {
+  font-weight: 500;
+  font-size: 16px;
+}

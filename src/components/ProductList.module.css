@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.thanks {
+  text-align: center;
+  margin-top: 40px;
+  padding: 25px;
+  background: #f9f9f9;
+  border-top: 2px solid #ddd;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.thanks h2 {
+  font-size: 1.6rem;
+  color:#147877;
+}
+
+.thanks p {
+  font-size: 1rem;
+  color: #19b8b0;
+}

@@ -1,0 +1,79 @@
+.productCard {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(8, 106, 159, 0.08);
+  width: 220px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(4, 96, 132, 0.15);
+}
+
+.productImage {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.productCard h3 {
+  color: #1fa5a3;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.productCard p {
+  color: #18a09d;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.productCard button {
+  background-color: #14B8A6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.productCard button:hover {
+  background-color: #0F766E;
+  transform: scale(1.05);
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.quantityControl button {
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  background-color:#21a09e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.quantityControl button:hover {
+  background-color: #0ba29f;
+  transform: scale(1.1);
+}
+
+.quantityControl span {
+  font-weight: bold;
+  font-size: 16px;
+}
